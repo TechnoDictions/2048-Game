@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,14 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <div class="heading">
-            <h1 class="title">2048</h1>
+            <div class="title-wrapper">
+                <div class="brand">Blazas</div>
+                <h1 class="title">2048</h1>
+            </div>
             <div class="scores-container">
                 <div class="score-container">0</div>
                 <div class="best-container">0</div>
@@ -27,17 +32,17 @@
                 <div class="grid-cell"></div>
                 <div class="grid-cell"></div>
                 <div class="grid-cell"></div>
-                
+
                 <div class="grid-cell"></div>
                 <div class="grid-cell"></div>
                 <div class="grid-cell"></div>
                 <div class="grid-cell"></div>
-                
+
                 <div class="grid-cell"></div>
                 <div class="grid-cell"></div>
                 <div class="grid-cell"></div>
                 <div class="grid-cell"></div>
-                
+
                 <div class="grid-cell"></div>
                 <div class="grid-cell"></div>
                 <div class="grid-cell"></div>
@@ -47,7 +52,7 @@
             <div class="tile-container">
                 <!-- Tiles will be inserted here by JavaScript -->
             </div>
-            
+
             <div class="game-message">
                 <p></p>
                 <div class="lower">
@@ -56,11 +61,13 @@
                 </div>
             </div>
         </div>
-        
+
         <p class="game-explanation">
-            <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
+            <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When
+            two tiles with the same number touch, they <strong>merge into one!</strong>
         </p>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
